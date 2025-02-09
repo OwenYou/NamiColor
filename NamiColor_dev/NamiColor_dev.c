@@ -40,8 +40,6 @@ DEFINE_UI_PARAMS(B_shift,       B Shift,            DCTLUI_SLIDER_FLOAT,    0.0,
 // Cineon lift
 DEFINE_UI_PARAMS(postLift,      Fit to Cineon Base, DCTLUI_CHECK_BOX,   0)
 
-__DEVICE__ float3 
-
 
 __DEVICE__ float3 transform(int p_Width, int p_Height, int p_X, int p_Y, float p_R, float p_G, float p_B)
 {
